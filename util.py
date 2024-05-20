@@ -52,18 +52,12 @@ def filt_item(title):
     if "独卫" not in title:
         return False
     keywords = [
-        "北安河",
-        "温阳路",
-        "稻香湖路",
-        "屯佃",
-        "永丰",
-        "永丰南",
-        "西北旺",
-        "马连洼",
-        "农大",
-        "西二旗",
-        "清河",
-        "上地",
+        "三新家园",
+        "和谐",
+        "庆春广场",
+        "钱江路",
+        "景芳",
+        "江城路"
     ]
     for keyword in keywords:
         if keyword in title:
